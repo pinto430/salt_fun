@@ -1,0 +1,1 @@
+service salt-minion restart
