@@ -1,0 +1,11 @@
+git@github.com:saltstack-formulas/node-formula.git node
+git@github.com:saltstack-formulas/rabbitmq-formula.git rabbitmq
+git@github.com:saltstack-formulas/users-formula.git users
+git@github.com:saltstack-formulas/docker-formula.git docker
+git@github.com:saltstack-formulas/apache-formula.git apache
+git@github.com:saltstack-formulas/openssh-formula.git openssh
+git@github.com:saltstack-formulas/vim-formula.git vim
+git@github.com:saltstack-formulas/virtualenv-formula.git virtualenv
+git@github.com:saltstack-formulas/salt-formula.git salt
+git@github.com:saltstack-formulas/iptables-formula.git iptables
+git@github.com:saltstack-formulas/cert-formula.git cert-formula
