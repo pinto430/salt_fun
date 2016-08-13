@@ -2,11 +2,19 @@
 # This script will install the minion on the remote, set the master as the first argument and 
 # set the id as user defined.
 
-echo "Please enter the master node, followed by [ENTER]:"
-read master
-echo "Please enter the minion id, followed by [ENTER]:"
-read id
+# First check to see if arguments were passed
+if [ -z $1 ] || [ -z $2 ]
+then
+	echo "Please enter the master node, followed by [ENTER]:"
+	read master
+	echo "Please enter the minion id, followed by [ENTER]:"
+	read id
+else
+    master=$1
+	id=$2
+fi
 
+# Script failure if either is undefined
 if [ -z "$master" ] || [ -z "$id" ]; then
     echo "Failure, either master or id is undefined"
     exit 1
